@@ -1,16 +1,16 @@
-# React Native Automation - Automação React Native e Expo
+# React Native Automation
 
-Esta CLI personalizado foi criado para facilitar o desenvolvimento e gerenciamento de um projeto React Native com Expo. Os scripts são escritos em TypeScript e organizados na pasta `scripts/`, com funções auxiliares em `scripts/utils`.
+This custom CLI was created to make it easier to develop and manage a React Native project with Expo. The scripts are written in TypeScript and organized in the `scripts/` folder, with helper functions in `scripts/utils`.
 
 ---
 
-## ⚙️ Scripts Disponíveis
+## ⚙️ Available Scripts
 
-### 🏁 Iniciar o aplicativo
+### 🏁 Launch the application
 
-Arquivo: `start-app.ts`
+File: `start-app.ts`
 
-Permite iniciar o app com opções:
+Allows you to start the app with options:
 
 - Expo QR Code (padrão)
 - Android
@@ -18,28 +18,28 @@ Permite iniciar o app com opções:
 
 ---
 
-### 📦 Instalar dependências
+### 📦 Install dependencies
 
-Arquivo: `install-deps.ts`
+File: `install-deps.ts`
 
-Executa `yarn install` com feedback visual.
+Execute `yarn install` with visual feedback.
 
 ---
 
-### ⚙️ Otimizações de performance
+### ⚙️ Performance optimizations
 
-Arquivo: `perfomace.ts`
+File: `perfomace.ts`
 
-Menu interativo com opções:
+Interactive menu with options:
 
 - Aumentar memória do Node.js (simulado)
 - Desabilitar logs de debug (simulado)
 
 ---
 
-### 📱 Gerar APK Android
+### 📱 Generate Android APK
 
-Arquivo: `build-android.ts`
+File: `build-android.ts`
 
 - Verifica arquivos `.env.dev`, `.env.stage`, `.env.prod`
 - Permite escolher o ambiente antes de rodar `eas build`
@@ -49,9 +49,9 @@ Arquivo: `build-android.ts`
 
 ### 🧹 Limpar o projeto
 
-Arquivo: `clean.ts`
+File: `clean.ts`
 
-Menu com opções para limpar:
+Menu with options to clean:
 
 - Cache do Expo
 - node_modules
@@ -61,9 +61,9 @@ Menu com opções para limpar:
 
 ---
 
-### 🚀 Publicar app
+### 🚀 Publish app
 
-Arquivo: `publish.ts`
+File: `publish.ts`
 
 - Solicita nova versão
 - Atualiza `package.json` e `app.json`
@@ -71,16 +71,16 @@ Arquivo: `publish.ts`
 
 ---
 
-### 🆕 Criar nova tela
+### 🆕 Create new screen
 
-Arquivo: `create-screen.ts`
+File: `create-screen.ts`
 
 - Cria uma nova pasta e `index.tsx` dentro de `src/screens/`
 - Estrutura básica React Native
 
 ---
 
-## 🧰 Utilitários (scripts/utils)
+## 🧰 Utilities (scripts/utils)
 
 ### common.ts
 
@@ -98,38 +98,13 @@ Arquivo: `create-screen.ts`
 
 ---
 
-## 🚀 Inicialização
+## 🚀 Initialization
 
-### Comando principal
+### Main command
 
 ```bash
 yarn start
 # ou
 yarn cli
 
-```
-
-## 📦 package.json (resumo)
-
-```
-{
-"name": "rn-cli-automation",
-"version": "1.0.0",
-"private": true,
-"type": "module",
-"main": "cli.ts",
-"scripts": {
-    "start": "tsx scripts/cli.ts"
-    },
-"dependencies": {
-    "chalk": "^5.3.0",
-    "inquirer": "^9.2.16",
-    "zx": "^7.2.3",
-    "dotenv": "^16.3.1"
-    },
-"devDependencies": {
-    "tsx": "^4.7.0",
-    "typescript": "^5.4.0"
-    }
-}
 ```

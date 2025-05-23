@@ -4,6 +4,34 @@ This custom CLI was created to make it easier to develop and manage a React Nati
 
 ---
 
+## 📦 How to Run
+
+You can run the CLI tool in two ways:
+
+- Using NPX directly
+
+```bash
+npx rn-automation
+```
+
+- Add to your package.json scripts
+
+```bash
+"scripts": {
+"cli": "npx rn-automation"
+}
+```
+
+Then run it with:
+
+```bash
+yarn cli
+
+Or
+
+npm run cli
+```
+
 ## ⚙️ Available Scripts
 
 ### 🏁 Launch the application

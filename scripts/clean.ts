@@ -36,7 +36,7 @@ async function cleanProject() {
   }
 
   const shouldRun = (opt: string) => {
-    options.includes("all") || options.includes(opt);
+    return options.includes("all") || options.includes(opt);
   };
 
   log.line();

@@ -1,6 +1,6 @@
 {
   "name": "rn-automation-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automação para projetos React Native + Expo",
   "main": "dist/index.js",
   "bin": {

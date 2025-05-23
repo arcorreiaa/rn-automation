@@ -1,0 +1,30 @@
+{
+  "name": "rn-automation-cli",
+  "version": "1.0.0",
+  "description": "Automação para projetos React Native + Expo",
+  "main": "dist/index.js",
+  "bin": {
+    "rn-automation": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cli": "ts-node scripts/cli.ts"
+  },
+  "dependencies": {
+    "cfonts": "^3.1.0",
+    "chalk": "4",
+    "execa": "^9.5.3",
+    "figlet": "^1.8.1",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.6.1"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/react": "~19.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "author": "Alysson Correia",
+  "license": "MIT"
+}

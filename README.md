@@ -4,24 +4,6 @@ Esta CLI personalizado foi criado para facilitar o desenvolvimento e gerenciamen
 
 ---
 
-## 📂 Estrutura do Projeto
-
-scripts/
-├── build-android.ts
-├── clean.ts
-├── cli.ts
-├── create-screen.ts
-├── install-deps.ts
-├── perfomace.ts
-├── publish.ts
-├── start-app.ts
-└── utils/
-├── common.ts
-├── file.ts
-└── shell.ts
-
----
-
 ## ⚙️ Scripts Disponíveis
 
 ### 🏁 Iniciar o aplicativo
